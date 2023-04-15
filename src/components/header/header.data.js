@@ -12,8 +12,4 @@ export default [
     path: 'deliverables',
     label: 'Deliverables',
   },
-  {
-    path: 'testimonial',
-    label: 'SRS poster',
-  },
 ];

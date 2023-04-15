@@ -16,7 +16,7 @@ const data = [
     title: "Vision Document",
     text:
       "",
-    link:"https://na-la.vercel.app/"
+    link:"https://docs.google.com/document/d/e/2PACX-1vQO3liuUAq0T9MlmXD9pw__beJ_YeDJiLtUp0-yHgEvLDH7SU0_u51MgfgFWvirn94VT72yHAOocgO6/pub"
     },
   {
     id: 2,
@@ -25,6 +25,7 @@ const data = [
     title: "Use Cases",
     text:
       "",
+    link:"https://docs.google.com/document/d/e/2PACX-1vSTvxCdoQVnzVF8na7W444X9rnIgfUvpMn31UiulpXCq_fNYChHmSJNYciLuhQYfXI5vw9M9Ro3XGtR/pub"
   },
   {
     id: 3,
@@ -33,6 +34,7 @@ const data = [
     title: "Glossary",
     text:
       "",
+    link:"https://docs.google.com/document/d/e/2PACX-1vQZkNw7Q9A1QHM8FXAtS_R5O-O1W7imIyPsWuXwgiqzHnHftSQuoFPSBM5cDj0Wo_xzoCu5fueYVWck/pub"
   },
   {
     id: 4,
@@ -41,6 +43,7 @@ const data = [
     title: "WARs",
     text:
       "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
   },
 ];
 

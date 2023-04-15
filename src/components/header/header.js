@@ -27,13 +27,13 @@ export default function Header({ className }) {
             </Link>
           ))}
         </Flex>
-        {<a href="https://na-la.vercel.app/find_meteorites_by_location/map/Oklahoma">
+        {<a href="https://drive.google.com/file/d/13FqUaCtamEzKwjEUd0ehSh0PwKmDzTRt/view">
         <Button
           className="donate__btn"
           variant="secondary"
           aria-label="Get Started"
         >
-          See Meteorites
+          SRS Poster
         </Button>
         </a>
           }
