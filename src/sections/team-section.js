@@ -3,14 +3,12 @@ import { jsx } from "theme-ui";
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub, FaSnapchatGhost, FaLinkedin, FaKaggle,FaQq,FaStackOverflow } from "react-icons/fa";
 
 import Member1 from "assets/team/member-1.png";
 import Member2 from "assets/team/member-2.png";
 import Member3 from "assets/team/member-3.png";
 import Member4 from "assets/team/member-4.png";
-import Member5 from "assets/team/member-5.png";
-import Member6 from "assets/team/member-6.png";
 
 const data = [
   {
@@ -18,25 +16,19 @@ const data = [
     imgSrc: Member1,
     altText: "Alberto Gaucín",
     title: "Alberto Gaucín",
-    designation: "CEO and Founder",
+    designation: "",
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        // icon: <FaFacebookF />,
+        name: "linkedin",
+        path: "https://www.linkedin.com/in/alberto-gaucin-276413227",
+        icon: <FaLinkedinIn />,
       },
       {
         id: 2,
-        name: "twitter",
+        name: "github",
         path: "#",
-        // icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        // icon: <FaInstagram />,
+        icon: <FaGithub />,
       },
     ],
   },
@@ -45,25 +37,19 @@ const data = [
     imgSrc: Member2,
     altText: "Erika Rebollo Díaz",
     title: "Erika Rebollo Díaz",
-    designation: "Founder",
+    designation: "",
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        // icon: <FaFacebookF />,
+        name: "linkedin",
+        path: "https://www.linkedin.com/in/erika-rebollo-diaz",
+        icon: <FaLinkedinIn />,
       },
       {
         id: 2,
-        name: "twitter",
+        name: "github",
         path: "#",
-        // icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        // icon: <FaInstagram />,
+        icon: <FaGithub />,
       },
     ],
   },
@@ -72,25 +58,19 @@ const data = [
     imgSrc: Member3,
     altText: "Ayomide Ayowole-Obi",
     title: "Ayomide Ayowole-Obi",
-    designation: "Web Designer",
+    designation: "",
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
-        path: "#",
-        // icon: <FaFacebookF />,
+        name: "linkedin",
+        path: "https://www.linkedin.com/in/ayomide-ayowole-obi-77b9b31ba",
+        icon: <FaLinkedinIn />,
       },
       {
         id: 2,
-        name: "twitter",
+        name: "github",
         path: "#",
-        // icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        // icon: <FaInstagram />,
+        icon: <FaGithub />,
       },
     ],
   },
@@ -99,13 +79,13 @@ const data = [
     imgSrc: Member4,
     altText: "Robby Dai",
     title: "Robby Dai",
-    designation: "Web Developer",
+    designation: "",
     socialProfile: [
       {
         id: 1,
-        name: "facebook",
+        name: "QQ",
         path: "#",
-        // icon: <FaFacebookF />,
+        icon: <FaQq />,
       },
       {
         id: 2,
@@ -113,68 +93,8 @@ const data = [
         path: "#",
         // icon: <FaTwitter />,
       },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        // icon: <FaInstagram />,
-      },
     ],
   },
-  // {
-  //   id: 5,
-  //   imgSrc: Member5,
-  //   altText: "Saimon Harmer",
-  //   title: "Saimon Harmer",
-  //   designation: "CEO and Founder",
-  //   socialProfile: [
-  //     {
-  //       id: 1,
-  //       name: "facebook",
-  //       path: "#",
-  //       icon: <FaFacebookF />,
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "twitter",
-  //       path: "#",
-  //       icon: <FaTwitter />,
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "instagram",
-  //       path: "#",
-  //       icon: <FaInstagram />,
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 6,
-  //   imgSrc: Member6,
-  //   altText: "Aaron Nunez",
-  //   title: "Aaron Nunez",
-  //   designation: "Web Designer",
-  //   socialProfile: [
-  //     {
-  //       id: 1,
-  //       name: "facebook",
-  //       path: "#",
-  //       icon: <FaFacebookF />,
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "twitter",
-  //       path: "#",
-  //       icon: <FaTwitter />,
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "instagram",
-  //       path: "#",
-  //       icon: <FaInstagram />,
-  //     },
-  //   ],
-  // },
 ];
 
 export default function TeamSection() {
