@@ -7,6 +7,7 @@ import Performance from "assets/key-feature/performance.svg";
 import Partnership from "assets/key-feature/partnership.svg";
 import Subscription from "assets/key-feature/subscription.svg";
 import Support from "assets/key-feature/support.svg";
+import { useState } from "react";
 
 const data = [
   {
@@ -48,6 +49,11 @@ const data = [
 ];
 
 export default function KeyFeature() {
+  const [id, setId] = useState(0)
+  const toggle = (item)=>{
+    console.log(item)
+    setId(item.id)
+  }
   return (
     <section sx={{ variant: "deliverables" }} id="deliverables">
       <Container>
@@ -65,13 +71,19 @@ export default function KeyFeature() {
               title={item.title}
               text={item.text}
                />
-              <a href={item.link}><Button>View</Button></a>
+              <Button onClick={()=>toggle(item)} > View</Button>
+              
+
               </>
             
           ))}
           
         </Grid>
+        {id === 1 && <iframe src="/2 Vision.pdf" width="100%" height="500px"></iframe>}
+        {id === 2 && <iframe src="/Use Cases.pdf" width="100%" height="500px"></iframe>}
         
+        {id === 3 && <iframe src="/1 Glossary.pdf" width="100%" height="500px"></iframe>}
+        {id === 4 && <iframe src="/Weekly Activity Report (1).pdf" width="100%" height="500px"></iframe>}
       </Container>
     </section>
   );
