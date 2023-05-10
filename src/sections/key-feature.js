@@ -12,7 +12,7 @@ import { useState } from "react";
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
+    imgSrc: Partnership,
     altText: "Vision Document",
     title: "Vision Document",
     text:
@@ -30,7 +30,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Subscription,
+    imgSrc: Partnership,
     altText: "Glossary",
     title: "Glossary",
     text:
@@ -39,9 +39,72 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Support,
+    imgSrc: Partnership,
     altText: "WARs",
     title: "WARs",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 5,
+    imgSrc: Partnership,
+    altText: " SRS Poster",
+    title: "SRS Poster",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 6,
+    imgSrc: Partnership,
+    altText: "User  manual",
+    title: "User Manual",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 7,
+    imgSrc: Partnership,
+    altText: "Final Presentation",
+    title: "Final Presentation",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 8,
+    imgSrc: Partnership,
+    altText: "Software Requirements Specification",
+    title: "Software Requirements Specification",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 9,
+    imgSrc: Partnership,
+    altText: "Software Development Plan",
+    title: "Software Development Plan",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 10,
+    imgSrc: Partnership,
+    altText: "Test Cases",
+    title: "Test Cases",
+    text:
+      "",
+    link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
+  },
+  {
+    id: 11,
+    imgSrc: Partnership,
+    altText: "Developer Manual",
+    title: "Developer Manual",
     text:
       "",
     link:"https://docs.google.com/spreadsheets/d/e/2PACX-1vRBb_2lerEggcMHIvWF-WxKuRABW2p5vcJvQ2O6pMoQYdUzTigPDkUrdY3xy_gi_A/pubhtml"
@@ -80,10 +143,16 @@ export default function KeyFeature() {
           
         </Grid>
         {id === 1 && <iframe src="/2 Vision.pdf" width="100%" height="500px"></iframe>}
-        {id === 2 && <iframe src="/Use Cases.pdf" width="100%" height="500px"></iframe>}
-        
+        {id === 2 && <iframe src="/UseCases.pdf" width="100%" height="500px"></iframe>}
         {id === 3 && <iframe src="/1 Glossary.pdf" width="100%" height="500px"></iframe>}
         {id === 4 && <iframe src="/Weekly Activity Report (1).pdf" width="100%" height="500px"></iframe>}
+        {id === 5 && <iframe src="/Poster.pdf" width="100%" height="500px"></iframe>}
+        {id === 6 && <iframe src="/User's Manual.pdf" width="100%" height="500px"></iframe>}
+        {id === 7 && <iframe src="/Final Presentation.pdf" width="100%" height="500px"></iframe>}
+        {id === 8 && <iframe src="/Software Requirements Specification.pdf" width="100%" height="500px"></iframe>}
+        {id === 9 && <iframe src="/Development Plan.pdf" width="100%" height="500px"></iframe>}
+        {id === 10 && <iframe src="/testCases.pdf" width="100%" height="500px"></iframe>}
+        {id === 11 && <iframe src="/Developer's Manual.pdf" width="100%" height="500px"></iframe>}
       </Container>
     </section>
   );

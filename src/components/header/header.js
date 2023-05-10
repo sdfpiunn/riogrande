@@ -27,16 +27,7 @@ export default function Header({ className }) {
             </Link>
           ))}
         </Flex>
-        {<a href="https://drive.google.com/file/d/13FqUaCtamEzKwjEUd0ehSh0PwKmDzTRt/view">
-        <Button
-          className="donate__btn"
-          variant="secondary"
-          aria-label="Get Started"
-        >
-          SRS Poster
-        </Button>
-        </a>
-          }
+        
         <MobileDrawer />
       </Container>
     </header>
